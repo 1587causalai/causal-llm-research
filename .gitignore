@@ -1,0 +1,21 @@
+# Common Python .gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment specific
+.env
+.venv
+venv/
+ENV/
+
+# IDE specific
+.idea/
+.vscode/
+
+# Data files - if you have large data files, consider git-lfs
+# data/raw/
+# data/processed/
+
+# Model files - if you have large model files, consider git-lfs
+# models/ 
